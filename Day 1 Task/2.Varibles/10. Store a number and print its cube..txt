@@ -1,0 +1,7 @@
+>>> num = 3
+... cube = num ** 3
+...
+... print("Cube:", cube)
+...
+Cube: 27
+>>>

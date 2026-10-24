@@ -1,0 +1,7 @@
+>>> name = "Rohit sai reddy"
+... city = "Hyderabad"
+...
+... print(f"My name is {name} and I live in {city}.")
+...
+My name is Rohit sai reddy and I live in Hyderabad.
+>>>

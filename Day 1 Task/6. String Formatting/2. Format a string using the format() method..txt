@@ -1,0 +1,7 @@
+>>> name = "Rohit sai reddy"
+... age = 29
+...
+... print("My name is {} and I am {} years old.".format(name, age))
+...
+My name is Rohit sai reddy and I am 29 years old.
+>>>

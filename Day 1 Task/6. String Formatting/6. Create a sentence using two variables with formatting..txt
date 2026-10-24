@@ -1,0 +1,7 @@
+>>> first_name = "Rohit sai"
+... last_name = "Reddy"
+...
+... print(f"My full name is {first_name} {last_name}.")
+...
+My full name is Rohit sai Reddy.
+>>>

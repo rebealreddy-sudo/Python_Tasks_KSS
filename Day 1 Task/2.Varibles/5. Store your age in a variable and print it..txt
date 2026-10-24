@@ -1,0 +1,5 @@
+>>> age = 28
+... print("My age is:", age)
+...
+My age is: 28
+>>>

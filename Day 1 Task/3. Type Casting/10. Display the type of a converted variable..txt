@@ -1,0 +1,9 @@
+>>> num = "50"
+... converted_num = int(num)
+...
+... print("Value:", converted_num)
+... print("Type:", type(converted_num))
+...
+Value: 50
+Type: <class 'int'>
+>>>

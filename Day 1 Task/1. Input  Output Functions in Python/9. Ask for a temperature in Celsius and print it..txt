@@ -1,0 +1,6 @@
+>>> temperature = float(input("Enter temperature in Celsius: "))
+... print("Temperature:", temperature, "°C")
+...
+Enter temperature in Celsius: 32
+Temperature: 32.0 °C
+>>>

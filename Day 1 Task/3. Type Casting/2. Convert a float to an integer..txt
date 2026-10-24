@@ -1,0 +1,7 @@
+>>> num = 12.8
+... result = int(num)
+...
+... print(result)
+...
+12
+>>>

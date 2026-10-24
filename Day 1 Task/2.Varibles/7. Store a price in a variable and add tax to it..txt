@@ -1,0 +1,12 @@
+>>> price = 1000
+... tax = price * 0.18
+... total_price = price + tax
+...
+... print("Original price:", price)
+... print("Tax:", tax)
+... print("Total price:", total_price)
+...
+Original price: 1000
+Tax: 180.0
+Total price: 1180.0
+>>>

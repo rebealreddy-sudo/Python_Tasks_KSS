@@ -1,0 +1,6 @@
+>>> city = input("Enter your city: ")
+... print("You live in", city)
+...
+Enter your city: Guntur
+You live in Guntur
+>>>

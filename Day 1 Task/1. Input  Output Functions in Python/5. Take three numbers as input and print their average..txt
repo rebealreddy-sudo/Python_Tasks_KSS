@@ -1,0 +1,12 @@
+>>> a = float(input("Enter first number: "))
+... b = float(input("Enter second number: "))
+... c = float(input("Enter third number: "))
+...
+... average = (a + b + c) / 3
+... print("Average:", average)
+...
+Enter first number: 10
+Enter second number: 15
+Enter third number: 20
+Average: 15.0
+>>>

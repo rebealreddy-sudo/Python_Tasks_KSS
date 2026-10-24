@@ -1,0 +1,6 @@
+>>> num = int(input("Enter a number: "))
+... print("Square:", num ** 2)
+...
+Enter a number: 8
+Square: 64
+>>>

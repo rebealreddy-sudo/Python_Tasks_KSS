@@ -1,0 +1,8 @@
+>>> radius = 7
+... pi = 3.14159
+...
+... area = pi * radius ** 2
+... print("Area of circle:", area)
+...
+Area of circle: 153.93791
+>>>

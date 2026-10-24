@@ -1,0 +1,7 @@
+>>> age = 28
+... age_text = str(age)
+...
+... print("My age is " + age_text)
+...
+My age is 28
+>>>

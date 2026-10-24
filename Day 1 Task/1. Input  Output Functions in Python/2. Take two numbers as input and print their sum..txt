@@ -1,0 +1,9 @@
+>>> a = int(input("Enter first number: "))
+... b = int(input("Enter second number: "))
+...
+... print("Sum:", a + b)
+...
+Enter first number: 10
+Enter second number: 12
+Sum: 22
+>>>

@@ -1,0 +1,6 @@
+>>> percentage = 85.678
+...
+... print(f"Percentage: {percentage:.2f}%")
+...
+Percentage: 85.68%
+>>>

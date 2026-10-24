@@ -1,0 +1,7 @@
+>>> num = 100
+... result = str(num) + " is my number"
+...
+... print(result)
+...
+100 is my number
+>>>

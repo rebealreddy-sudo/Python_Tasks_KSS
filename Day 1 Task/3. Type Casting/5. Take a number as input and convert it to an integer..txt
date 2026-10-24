@@ -1,0 +1,10 @@
+>>> num = input("Enter a number: ")
+... num = int(num)
+...
+... print("Number:", num)
+... print(type(num))
+...
+Enter a number: 25
+Number: 25
+<class 'int'>
+>>>
