@@ -1,0 +1,13 @@
+Python 3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = int(input("Enter first number: "))
+... b = int(input("Enter second number: "))
+...
+... result = a & b
+...
+... print("Bitwise AND:", result)
+...
+Enter first number: 10
+Enter second number: 5
+Bitwise AND: 0
+>>>

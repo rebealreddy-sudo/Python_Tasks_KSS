@@ -1,0 +1,12 @@
+>>> num = int(input("Enter a number: "))
+...
+... left = num << 1
+... right = num >> 1
+...
+... print("Left Shift:", left)
+... print("Right Shift:", right)
+...
+Enter a number: 8
+Left Shift: 16
+Right Shift: 4
+>>>

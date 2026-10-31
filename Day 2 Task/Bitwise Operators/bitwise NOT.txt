@@ -1,0 +1,9 @@
+>>> num = int(input("Enter a number: "))
+...
+... result = ~num
+...
+... print("Bitwise NOT:", result)
+...
+Enter a number: 10
+Bitwise NOT: -11
+>>>
