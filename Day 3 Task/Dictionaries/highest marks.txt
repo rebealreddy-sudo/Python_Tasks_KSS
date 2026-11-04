@@ -1,0 +1,14 @@
+>>> students = {
+...     "Rahul": 85,
+...     "Ravi": 90,
+...     "Priya": 95
+... }
+...
+... top_student = max(students, key=students.get)
+...
+... print("Student with highest marks:", top_student)
+... print("Highest marks:", students[top_student])
+...
+Student with highest marks: Priya
+Highest marks: 95
+>>>

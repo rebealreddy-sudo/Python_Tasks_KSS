@@ -1,0 +1,10 @@
+>>> students = {
+...     "Rahul": 85,
+...     "Ravi": 90,
+...     "Rohit": 95
+... }
+...
+... print(students.keys())
+...
+dict_keys(['Rahul', 'Ravi', 'Rohit'])
+>>>

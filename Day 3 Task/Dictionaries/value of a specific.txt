@@ -1,0 +1,10 @@
+>>> students = {
+...     "Rahul": 85,
+...     "Ravi": 90,
+...     "Priya": 95
+... }
+...
+... print(students["Ravi"])
+...
+90
+>>>

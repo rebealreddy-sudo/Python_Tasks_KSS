@@ -1,0 +1,8 @@
+>>> numbers = (10, 50, 30, 5, 40)
+...
+... print("Maximum value:", max(numbers))
+... print("Minimum value:", min(numbers))
+...
+Maximum value: 50
+Minimum value: 5
+>>>

@@ -1,0 +1,8 @@
+>>> numbers = [10, 50, 30, 5, 40]
+...
+... print("Largest element:", max(numbers))
+... print("Smallest element:", min(numbers))
+...
+Largest element: 50
+Smallest element: 5
+>>>

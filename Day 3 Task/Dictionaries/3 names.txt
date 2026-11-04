@@ -1,0 +1,10 @@
+>>> students = {
+...     "Akhil": 85,
+...     "Rohit": 90,
+...     "Sai": 95
+... }
+...
+... print(students)
+...
+{'Akhil': 85, 'Rohit': 90, 'Sai': 95}
+>>>
