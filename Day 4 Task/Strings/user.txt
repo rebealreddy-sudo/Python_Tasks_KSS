@@ -1,0 +1,20 @@
+>>> text = input("Rohit sai reddy: ")
+...
+... print("Uppercase:", text.upper(Rohit))
+... print("Lowercase:", text.lower(Sai))
+...
+Rohit sai reddy:
+Traceback (most recent call last):
+  File "<python-input-20>", line 3, in <module>
+    print("Uppercase:", text.upper(Rohit))
+                                   ^^^^^
+NameError: name 'Rohit' is not defined
+>>>
+>>> name = input("Rohit sai reddy: ")
+...
+... print("Entered string:", name)
+...
+Rohit sai reddy: 6
+Entered string: 6
+>>>
+>>>

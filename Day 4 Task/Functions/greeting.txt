@@ -1,0 +1,7 @@
+>>> def greet():
+...     print("Hello! Welcome to Rohit sai reddy")
+...
+... greet()
+...
+Hello! Welcome to Rohit sai reddy
+>>>

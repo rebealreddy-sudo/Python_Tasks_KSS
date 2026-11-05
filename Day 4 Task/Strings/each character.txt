@@ -1,0 +1,16 @@
+>>> text = input("Enter a string: ")
+...
+... frequency = {}
+...
+... for ch in text:
+...     if ch in frequency:
+...         frequency[ch] += 1
+...     else:
+...         frequency[ch] = 1
+...
+... print("Character frequency:", frequency)
+...
+Enter a string: Rohit
+Character frequency: {'R': 1, 'o': 1, 'h': 1, 'i': 1, 't': 1}
+>>>
+>>>

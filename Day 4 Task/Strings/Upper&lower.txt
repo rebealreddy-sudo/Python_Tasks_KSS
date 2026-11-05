@@ -1,0 +1,9 @@
+>>> text = input("Rohit sai reddy: ")
+...
+... print("Uppercase:", text.upper())
+... print("Lowercase:", text.lower())
+...
+Rohit sai reddy: Python
+Uppercase: PYTHON
+Lowercase: python
+>>>
