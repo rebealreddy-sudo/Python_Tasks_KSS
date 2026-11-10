@@ -1,0 +1,20 @@
+>>> students = {
+>>> students = {
+>>> list1 = [1, 2, 3, 4, 5]
+... list2 = [3, 4, 5, 6, 7]
+... set1 = set(list1)
+... set2 = set(list2)
+... common = set1.intersection(set2)
+... only_first = set1.difference(set2)
+... all_unique = set1.union(set2)
+... print("Common Elements:", common)
+...
+Common Elements: {3, 4, 5}
+>>>
+>>> print("Only in First List:", only_first)
+Only in First List: {1, 2}
+>>>
+>>>
+>>> print("All Unique Elements:", all_unique)
+All Unique Elements: {1, 2, 3, 4, 5, 6, 7}
+>>>

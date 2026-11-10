@@ -1,0 +1,80 @@
+>>> students = {
+>>> students = {
+>>> students = {
+...     {"name": "Bob", "age": 28, "salary": 40000},
+...     {"name": "David", "age": 35, "salary": 60000}
+... ]
+...
+... # 1. Find employee with highest salary
+... highest_salary = max(employees, key=lambda x: x["salary"])
+...
+... print("Employee with Highest Salary:", highest_salary)
+...
+... # 2. Filter employees whose salary is greater than 35000
+... filtered_employees = [
+...     emp for emp in employees if emp["salary"] > 35000
+... ]
+...
+... print("\nEmployees with Salary Greater than 35000:")
+... for emp in filtered_employees:
+...     print(emp)
+...
+... # 3. Calculate average salary
+... total_salary = sum(emp["salary"] for emp in employees)
+>>> employees = [
+...     {"name": "Murthy", "age": 25, "salary": 30000},
+...     {"name": "Jaya", "age": 30, "salary": 50000},
+...     {"name": "Sai", "age": 28, "salary": 40000},
+...     {"name": "Rohit", "age": 35, "salary": 60000}
+... ]
+>>> highest_salary = max(employees, key=lambda x: x["salary"])
+>>>
+>>>
+... print("Employee with Highest Salary:", highest_salary)
+Employee with Highest Salary: {'name': 'Rohit', 'age': 35, 'salary': 60000}
+>>> employees = [
+...     {"name": "Murthy", "age": 25, "salary": 30000},
+...     {"name": "Jaya", "age": 30, "salary": 50000},
+...     {"name": "Sai", "age": 28, "salary": 40000},
+...     {"name": "Rohit", "age": 35, "salary": 60000}
+... ]
+>>> filtered_employees = [
+...     emp for emp in employees if emp["salary"] > 35000
+... ]
+>>>
+>>> print("\nEmployees with Salary Greater than 35000:")
+... for emp in filtered_employees:
+...     print(emp)
+...
+
+Employees with Salary Greater than 35000:
+{'name': 'Jaya', 'age': 30, 'salary': 50000}
+{'name': 'Sai', 'age': 28, 'salary': 40000}
+{'name': 'Rohit', 'age': 35, 'salary': 60000}
+>>> employees = [
+...     {"name": "Murthy", "age": 25, "salary": 30000},
+...     {"name": "Jaya", "age": 30, "salary": 50000},
+...     {"name": "Sai", "age": 28, "salary": 40000},
+...     {"name": "Rohit", "age": 35, "salary": 60000}
+... ]
+>>> total_salary = sum(emp["salary"] for emp in employees)
+...
+... average_salary = total_salary / len(employees)
+...
+... print("\nAverage Salary:", average_salary)
+...
+
+Average Salary: 45000.0
+>>> employees = [
+...     {"name": "Murthy", "age": 25, "salary": 30000},
+...     {"name": "Jaya", "age": 30, "salary": 50000},
+...     {"name": "Sai", "age": 28, "salary": 40000},
+...     {"name": "Rohit", "age": 35, "salary": 60000}
+... ]
+>>> employee_names = [emp["name"] for emp in employees]
+...
+... print("\nEmployee Names:", employee_names)
+...
+
+Employee Names: ['Murthy', 'Jaya', 'Sai', 'Rohit']
+>>>

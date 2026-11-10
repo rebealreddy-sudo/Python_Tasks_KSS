@@ -1,0 +1,16 @@
+>>> students = {
+>>> students = {
+>>> string = "programming"
+...
+... frequency = {}
+...
+... for char in string:
+...     if char in frequency:
+...         frequency[char] += 1
+...     else:
+...         frequency[char] = 1
+...
+... print(frequency)
+...
+{'p': 1, 'r': 2, 'o': 1, 'g': 2, 'a': 1, 'm': 2, 'i': 1, 'n': 1}
+>>>
