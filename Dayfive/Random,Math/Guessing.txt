@@ -1,0 +1,116 @@
+>>> import random
+... import math
+...
+...
+... number = random.randint(1, 50)
+...
+... print("Welcome to Number Guessing Game!")
+... print("Guess a number between 1 and 50.")
+... print("You have 5 attempts.")
+...
+... for i in range(5):
+...     guess = int(input("Enter your guess: "))
+...
+...
+...     difference = math.fabs(number - guess)
+...
+...     print("Difference:", difference)
+...
+...     if guess == number:
+...         print("Congratulations! You guessed the correct number.")
+>>> import random
+... import math
+>>> import random
+... import math
+...
+...
+... number = random.randint(1, 50)
+...
+... print("Welcome to Number Guessing Game!")
+... print("Guess a number between 1 and 50.")
+... print("You have 5 attempts.")
+...
+... for i in range(5):
+...     guess = int(input("Enter your guess: "))
+...
+...     difference = math.fabs(number - guess)
+...
+...     print("Difference:", difference)
+...
+...     if guess == number:
+...         print("Congratulations! You guessed the correct number.")
+>>> import random
+... import math
+...
+...
+... number = random.randint(1, 50)
+...
+... print("Welcome to Number Guessing Game!")
+... print("Guess a number between 1 and 50.")
+... print("You have 5 attempts.")
+...
+... for i in range(5):
+...     guess = int(input("Enter your guess: "))
+...
+...     difference = math.fabs(number - guess)
+...
+...     print("Difference:", difference)
+...
+...     if guess == number:
+...         print("Congratulations! You guessed the correct number.")
+...         break
+...     else:
+...         print("Wrong guess! Try again.")
+...
+... else:
+...     print("Sorry! You have used all 5 attempts.")
+...     print("The correct number was:", number)
+...
+Welcome to Number Guessing Game!
+Guess a number between 1 and 50.
+You have 5 attempts.
+Enter your guess: 15
+Difference: 12.0
+Wrong guess! Try again.
+Enter your guess: 5
+Difference: 22.0
+Wrong guess! Try again.
+>>> import random
+... import math
+...
+... number = random.randint(1, 50)
+...
+... print("Welcome to Number Guessing Game!")
+... print("Guess a number between 1 and 50.")
+... print("You have 5 attempts.")
+...
+... for i in range(5):
+...     guess = int(input("Enter your guess: "))
+...
+...     difference = math.fabs(number - guess)
+...
+...     print("Difference:", difference)
+...
+...     if guess == number:
+...         print("Congratulations! You guessed the correct number.")
+...         break
+...     else:
+...         print("Wrong guess! Try again.")
+...
+... else:
+...     print("Sorry! You have used all 5 attempts.")
+...     print("The correct number was:", number)
+...
+Welcome to Number Guessing Game!
+Guess a number between 1 and 50.
+You have 5 attempts.
+Enter your guess: 15
+Difference: 2.0
+Wrong guess! Try again.
+Enter your guess: 12
+Difference: 1.0
+Wrong guess! Try again.
+Enter your guess: 13
+Difference: 0.0
+Congratulations! You guessed the correct number.
+>>>

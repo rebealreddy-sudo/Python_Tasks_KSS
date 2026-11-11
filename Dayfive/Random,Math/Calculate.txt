@@ -1,0 +1,13 @@
+>>> import math
+...
+... num = float(input("Enter a number: "))
+...
+... print("Square Root:", math.sqrt(num))
+... print("Floor Value:", math.floor(num))
+... print("Ceiling Value:", math.ceil(num))
+...
+Enter a number: 25.7
+Square Root: 5.06951674225463
+Floor Value: 25
+Ceiling Value: 26
+>>>

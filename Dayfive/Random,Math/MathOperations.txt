@@ -1,0 +1,21 @@
+>>> import random
+... import math
+...
+... numbers = []
+... for i in range(20):
+...     num = random.randint(1, 200)
+...     numbers.append(num)
+... print("Random Numbers:", numbers)
+... maximum = max(numbers)
+... minimum = min(numbers)
+... print("Maximum Value:", maximum)
+... print("Minimum Value:", minimum)
+... print("Square Root of Maximum:", math.sqrt(maximum))
+... print("Logarithm of Minimum:", math.log(minimum))
+...
+Random Numbers: [103, 149, 22, 20, 193, 143, 131, 140, 193, 96, 171, 192, 167, 38, 171, 74, 17, 156, 48, 87]
+Maximum Value: 193
+Minimum Value: 17
+Square Root of Maximum: 13.892443989449804
+Logarithm of Minimum: 2.833213344056216
+>>>
