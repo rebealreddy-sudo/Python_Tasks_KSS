@@ -1,0 +1,143 @@
+... # Main menu
+... while True:
+...     print("\n===== Student Marks Management =====")
+...     print("1. Add Student")
+...     print("2. Display All Student Records")
+...     print("3. Calculate Average Marks")
+...     print("4. Exit")
+...
+...     try:
+...         choice = int(input("Enter your choice: "))
+...
+...         if choice == 1:
+...             add_student()
+...
+...         elif choice == 2:
+...             display_students()
+...
+...         elif choice == 3:
+...             calculate_average()
+...
+...         elif choice == 4:
+...             print("Thank you!")
+...             break
+...
+...         else:
+...             print("Invalid choice! Please try again.")
+...
+...     except ValueError:
+...         print("Error: Please enter a valid menu number.")
+...
+
+===== Student Marks Management =====
+1. Add Student
+2. Display All Student Records
+3. Calculate Average Marks
+4. Exit
+Enter your choice: 1
+Enter student name: Rohit
+Enter marks in Python: 85
+Enter marks in Java: 72
+Enter marks in C Programming: 88
+Student added successfully!
+
+===== Student Marks Management =====
+1. Add Student
+2. Display All Student Records
+3. Calculate Average Marks
+4. Exit
+Enter your choice: 1
+Enter student name: Rahul
+Enter marks in Python: 82
+Enter marks in Java: 81
+Enter marks in C Programming: 78
+Student added successfully!
+
+===== Student Marks Management =====
+1. Add Student
+2. Display All Student Records
+3. Calculate Average Marks
+4. Exit
+Enter your choice: 1
+Enter student name: Sai
+Enter marks in Python: 91
+Enter marks in Java: 87
+Enter marks in C Programming: 84
+Student added successfully!
+
+===== Student Marks Management =====
+1. Add Student
+2. Display All Student Records
+3. Calculate Average Marks
+4. Exit
+Enter your choice: 2
+
+----- Student Records -----
+
+Student Name: Rohit
+Python : 85.0
+Java : 72.0
+C Programming : 88.0
+Total Marks: 245.0
+
+Student Name: Rahul
+Python : 82.0
+Java : 81.0
+C Programming : 78.0
+Total Marks: 241.0
+
+Student Name: Sai
+Python : 91.0
+Java : 87.0
+C Programming : 84.0
+Total Marks: 262.0
+
+===== Student Marks Management =====
+1. Add Student
+2. Display All Student Records
+3. Calculate Average Marks
+4. Exit
+Enter your choice: 3
+Enter student name: Tilak
+Error: Student name does not exist!
+
+===== Student Marks Management =====
+1. Add Student
+2. Display All Student Records
+3. Calculate Average Marks
+4. Exit
+Enter your choice: 4
+Thank you!
+...         print("Error: Cannot calculate average with zero marks.")
+...
+...     except TypeError as e:
+...         print("Error:", e)
+...
+... while True:
+...     print("\n===== Student Marks Management =====")
+...     print("1. Add Student")
+...     print("2. Display All Student Records")
+...     print("3. Calculate Average Marks")
+...     print("4. Exit")
+...
+...     try:
+...         choice = int(input("Enter your choice: "))
+...
+...         if choice == 1:
+...             add_student()
+...
+...         elif choice == 2:
+...             display_students()
+...
+...         elif choice == 3:
+...             calculate_average()
+...
+...         elif choice == 4:
+...             print("Thank you!")
+...             break
+...
+...         else:
+...             print("Invalid choice! Please try again.")
+...
+...     except ValueError:
+...         print("Error: Please enter a valid menu number.")

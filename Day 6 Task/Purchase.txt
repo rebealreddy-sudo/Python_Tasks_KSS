@@ -1,0 +1,83 @@
+...
+...     except TypeError as e:
+...         print("Error:", e)
+...
+... while True:
+...     print("\n===== SHOP MANAGEMENT SYSTEM =====")
+...     print("1. Display Products")
+...     print("2. Add Items to Cart")
+...     print("3. Calculate Total Bill")
+...     print("4. Exit")
+...
+...     try:
+...         choice = int(input("Enter your choice: "))
+...
+...         if choice == 1:
+...             display_products()
+...
+...         elif choice == 2:
+...             add_to_cart()
+...
+...         elif choice == 3:
+...             total_bill()
+...
+...         elif choice == 4:
+...             print("Thank you for shopping!")
+...             break
+...
+...         else:
+...             print("Invalid choice! Try again.")
+...
+...     except ValueError:
+...         print("Error: Enter a valid menu choice.")
+...
+
+===== SHOP MANAGEMENT SYSTEM =====
+1. Display Products
+2. Add Items to Cart
+3. Calculate Total Bill
+4. Exit
+Enter your choice: 1
+
+----- Available Products -----
+Rice - Groceries - Rs. 60
+Sugar - Groceries - Rs. 45
+Oil - Groceries - Rs. 150
+Milk - Dairy - Rs. 30
+Soap - Household - Rs. 40
+
+===== SHOP MANAGEMENT SYSTEM =====
+1. Display Products
+2. Add Items to Cart
+3. Calculate Total Bill
+4. Exit
+Enter your choice: 2
+Enter product name: Rice
+Enter quantity: 6
+Product added to cart successfully!
+
+===== SHOP MANAGEMENT SYSTEM =====
+1. Display Products
+2. Add Items to Cart
+3. Calculate Total Bill
+4. Exit
+Enter your choice: 3
+
+----- Shopping Bill -----
+Rice - Rs. 60
+Rice - Rs. 60
+Rice - Rs. 60
+Rice - Rs. 60
+Rice - Rs. 60
+Rice - Rs. 60
+-------------------------
+Total Bill: Rs. 360
+
+===== SHOP MANAGEMENT SYSTEM =====
+1. Display Products
+2. Add Items to Cart
+3. Calculate Total Bill
+4. Exit
+Enter your choice: 4
+Thank you for shopping!
+>>>
