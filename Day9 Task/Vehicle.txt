@@ -1,0 +1,35 @@
+>>>
+... class Student:
+...     def __init__(self, name, roll_number, marks):
+...         self.name = name
+...         self.roll_number = roll_number
+>>>
+... class BankAccount:
+...     def __init__(self, account_number, balance):
+>>>
+... class Vehicle:
+...     def __init__(self, brand, speed):
+...         self.brand = brand
+...         self.speed = speed
+...
+... class Car(Vehicle):
+...     def display(self):
+...         print("Car Brand:", self.brand)
+...         print("Car Speed:", self.speed)
+...
+... class Bike(Vehicle):
+...     def display(self):
+...         print("Bike Brand:", self.brand)
+...         print("Bike Speed:", self.speed)
+...
+... c1 = Car("Toyota", 180)
+... b1 = Bike("Honda", 120)
+...
+... c1.display()
+... b1.display()
+...
+Car Brand: Toyota
+Car Speed: 180
+Bike Brand: Honda
+Bike Speed: 120
+>>>

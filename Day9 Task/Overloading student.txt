@@ -1,0 +1,31 @@
+>>>
+... class Student:
+...     def __init__(self, name, roll_number, marks):
+...         self.name = name
+...         self.roll_number = roll_number
+>>>
+... class BankAccount:
+...     def __init__(self, account_number, balance):
+>>>
+... class Result:
+...     def calculate(self, m1, m2, m3=None):
+...         if m3 is None:
+...             total = m1 + m2
+...             average = total / 2
+...         else:
+...             total = m1 + m2 + m3
+...             average = total / 3
+...
+...         print("Total Marks:", total)
+...         print("Average:", average)
+...
+... r = Result()
+...
+... r.calculate(80, 90)
+... r.calculate(80, 90, 85)
+...
+Total Marks: 170
+Average: 85.0
+Total Marks: 255
+Average: 85.0
+>>>

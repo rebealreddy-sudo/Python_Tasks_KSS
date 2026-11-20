@@ -1,0 +1,24 @@
+>>> import numpy as np
+...
+... branch_a = np.array([[10, 20],
+...                      [30, 40]])
+...
+... branch_b = np.array([[5, 15],
+...                      [25, 35]])
+...
+... combined = np.concatenate((branch_a, branch_b))
+...
+... total = np.sum(combined)
+...
+... print("Combined Matrix:")
+... print(combined)
+...
+... print("Total Employees:", total)
+...
+Combined Matrix:
+[[10 20]
+ [30 40]
+ [ 5 15]
+ [25 35]]
+Total Employees: 180
+>>>

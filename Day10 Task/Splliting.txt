@@ -1,0 +1,16 @@
+>>> import numpy as np
+...
+... data = np.array([5, 10, 15, 20, 25, 30])
+...
+... split_data = np.split(data, 3)
+...
+... print("Split Arrays:")
+...
+... for arr in split_data:
+...     print(arr)
+...
+Split Arrays:
+[ 5 10]
+[15 20]
+[25 30]
+>>>

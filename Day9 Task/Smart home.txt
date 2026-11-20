@@ -1,0 +1,33 @@
+>>>
+... class Student:
+...     def __init__(self, name, roll_number, marks):
+...         self.name = name
+...         self.roll_number = roll_number
+>>>
+... class BankAccount:
+...     def __init__(self, account_number, balance):
+>>>
+>>>
+>>>
+... class WiFiDevice:
+...     def wifi(self):
+...         print("WiFi Connected")
+...
+... class VoiceAssistant:
+...     def voice(self):
+...         print("Voice Assistant Activated")
+...
+... class SmartSpeaker(WiFiDevice, VoiceAssistant):
+...     def display(self):
+...         print("Smart Speaker is Ready")
+...
+... s = SmartSpeaker()
+...
+... s.wifi()
+... s.voice()
+... s.display()
+...
+WiFi Connected
+Voice Assistant Activated
+Smart Speaker is Ready
+>>>

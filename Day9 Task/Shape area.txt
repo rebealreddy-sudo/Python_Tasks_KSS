@@ -1,0 +1,30 @@
+>>>
+... class Student:
+...     def __init__(self, name, roll_number, marks):
+...         self.name = name
+...         self.roll_number = roll_number
+>>>
+... class BankAccount:
+...     def __init__(self, account_number, balance):
+>>>
+... class Circle:
+...     def area(self):
+...         print("Circle Area:", 3.14 * 5 * 5)
+...
+... class Rectangle:
+...     def area(self):
+...         print("Rectangle Area:", 10 * 5)
+...
+... class Triangle:
+...     def area(self):
+...         print("Triangle Area:", 0.5 * 10 * 5)
+...
+... shapes = [Circle(), Rectangle(), Triangle()]
+...
+... for shape in shapes:
+...     shape.area()
+...
+Circle Area: 78.5
+Rectangle Area: 50
+Triangle Area: 25.0
+>>>
