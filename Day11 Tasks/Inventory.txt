@@ -1,0 +1,10 @@
+>>> import numpy as np
+...
+... quantity = np.array([10, 20, 30, 40])
+...
+... print("Inventory:", quantity)
+... print("Data Type:", quantity.dtype)
+...
+Inventory: [10 20 30 40]
+Data Type: int64
+>>>

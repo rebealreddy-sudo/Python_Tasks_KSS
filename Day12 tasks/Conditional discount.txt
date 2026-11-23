@@ -1,0 +1,10 @@
+>>> prices = [100, 200, 300, 400]
+...
+... updated_prices = [price * 0.9 if price > 200 else price for price in prices]
+...
+... print("Original Prices:", prices)
+... print("Updated Prices:", updated_prices)
+...
+Original Prices: [100, 200, 300, 400]
+Updated Prices: [100, 200, 270.0, 360.0]
+>>>

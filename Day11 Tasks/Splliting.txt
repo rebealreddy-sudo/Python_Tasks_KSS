@@ -1,0 +1,14 @@
+>>> import numpy as np
+...
+... scores = np.array([50, 60, 70, 80, 90, 100, 110, 120])
+...
+... servers = np.array_split(scores, 4)
+...
+... for i, server in enumerate(servers):
+...     print("Server", i + 1, ":", server)
+...
+Server 1 : [50 60]
+Server 2 : [70 80]
+Server 3 : [ 90 100]
+Server 4 : [110 120]
+>>>

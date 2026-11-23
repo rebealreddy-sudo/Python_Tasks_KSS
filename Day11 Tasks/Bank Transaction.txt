@@ -1,0 +1,15 @@
+>>> import numpy as np
+...
+... transactions = [1200, 500, 800, 1500]
+...
+... arr = np.array(transactions)
+...
+... print("Array:", arr)
+... print("Type:", type(arr))
+... print("Is NumPy Array:", isinstance(arr, np.ndarray))
+...
+Array: [1200  500  800 1500]
+Type: <class 'numpy.ndarray'>
+Is NumPy Array: True
+>>>
+>>>

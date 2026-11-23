@@ -1,0 +1,10 @@
+>>> import numpy as np
+...
+... sensor = np.array(75)
+...
+... print("Sensor Value:", sensor)
+... print("Number of Dimensions:", sensor.ndim)
+...
+Sensor Value: 75
+Number of Dimensions: 0
+>>>
