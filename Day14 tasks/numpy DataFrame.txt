@@ -1,0 +1,32 @@
+>>> import numpy as np
+... import pandas as pd
+>>> import numpy as np
+... import pandas as pd
+...
+... names = np.array(["A", "B", "C"])
+... marks = np.array([80, 90, 70])
+...
+... df = pd.DataFrame({
+...     "Name": names,
+...     "Marks": marks
+... })
+...
+... print("Complete DataFrame:")
+... print(df)
+...
+... filtered = df[df["Marks"] > 75]
+...
+... print("\nStudents with marks above 75:")
+... print(filtered)
+...
+Complete DataFrame:
+  Name  Marks
+0    A     80
+1    B     90
+2    C     70
+
+Students with marks above 75:
+  Name  Marks
+0    A     80
+1    B     90
+>>>

@@ -1,0 +1,28 @@
+>>> import numpy as np
+... import pandas as pd
+>>> import numpy as np
+>>> import pandas as pd
+...
+... df = pd.DataFrame({
+...     "A": [10, 20, 30],
+...     "B": [5, 15, 25]
+... }, index=["x", "y", "z"])
+...
+... print("Selected Row:")
+... print(df.loc["y"])
+...
+... df = df.drop("x")
+...
+... print("\nUpdated DataFrame:")
+... print(df)
+...
+Selected Row:
+A    20
+B    15
+Name: y, dtype: int64
+
+Updated DataFrame:
+    A   B
+y  20  15
+z  30  25
+>>>

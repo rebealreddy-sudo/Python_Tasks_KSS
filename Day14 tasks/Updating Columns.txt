@@ -1,0 +1,20 @@
+>>> import numpy as np
+... import pandas as pd
+>>> import numpy as np
+>>> import pandas as pd
+...
+... df = pd.DataFrame({
+...     "Price": [100, 200, 300]
+... })
+...
+... df["Discount"] = df["Price"] * 0.10
+...
+... df["Final Price"] = df["Price"] - df["Discount"]
+...
+... print(df)
+...
+   Price  Discount  Final Price
+0    100      10.0         90.0
+1    200      20.0        180.0
+2    300      30.0        270.0
+>>>

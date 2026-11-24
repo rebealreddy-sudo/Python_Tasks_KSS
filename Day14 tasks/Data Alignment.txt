@@ -1,0 +1,32 @@
+>>> import numpy as np
+... import pandas as pd
+>>> import numpy as np
+>>> import pandas as pd
+...
+... S1 = pd.Series([10, 20, 30], index=["a", "b", "c"])
+... S2 = pd.Series([5, 15, 25], index=["b", "c", "d"])
+...
+... result = S1 + S2
+...
+... print("Original Addition:")
+... print(result)
+...
+... final_result = result.fillna(0)
+...
+... print("\nAfter Replacing NaN with 0:")
+... print(final_result)
+...
+Original Addition:
+a     NaN
+b    25.0
+c    45.0
+d     NaN
+dtype: float64
+
+After Replacing NaN with 0:
+a     0.0
+b    25.0
+c    45.0
+d     0.0
+dtype: float64
+>>>

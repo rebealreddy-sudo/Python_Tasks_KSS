@@ -1,0 +1,15 @@
+>>> import numpy as np
+... import pandas as pd
+...
+... arr = np.array([10, 20, 30, 40])
+...
+... S = pd.Series(arr, index=["A", "B", "C", "D"])
+...
+... print(S)
+...
+A    10
+B    20
+C    30
+D    40
+dtype: int64
+>>>

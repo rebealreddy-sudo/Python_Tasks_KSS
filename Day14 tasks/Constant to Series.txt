@@ -1,0 +1,14 @@
+>>> import numpy as np
+... import pandas as pd
+...
+... S = pd.Series([5, 10, 15])
+...
+... updated = S + 5
+...
+... print(updated)
+...
+0    10
+1    15
+2    20
+dtype: int64
+>>>

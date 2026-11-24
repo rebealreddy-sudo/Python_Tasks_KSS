@@ -1,0 +1,31 @@
+>>> import numpy as np
+... import pandas as pd
+>>> import numpy as np
+>>> import numpy as np
+... import pandas as pd
+...
+... arr = np.array([
+...     [100, 200],
+...     [150, 250],
+...     [80, 120],
+...     [300, 400]
+... ])
+...
+... df = pd.DataFrame(arr, columns=["Sales", "Profit"])
+...
+... filtered = df[df["Sales"] > 100]
+...
+... print("Filtered DataFrame:")
+... print(filtered)
+...
+... average_profit = filtered["Profit"].mean()
+...
+... print("\nAverage Profit:", average_profit)
+...
+Filtered DataFrame:
+   Sales  Profit
+1    150     250
+3    300     400
+
+Average Profit: 325.0
+>>>

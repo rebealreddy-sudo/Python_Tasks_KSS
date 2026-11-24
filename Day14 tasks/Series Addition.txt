@@ -1,0 +1,22 @@
+>>> import numpy as np
+... import pandas as pd
+>>> import numpy as np
+>>> import pandas as pd
+...
+... S1 = pd.Series([10, 20, 30], index=["apple", "banana", "cherry"])
+... S2 = pd.Series([5, 15, 25], index=["apple", "banana", "cherry"])
+...
+... result = S1 + S2
+...
+... print("Fruit Sales:")
+... print(result)
+...
+... print("Total Sales:", result.sum())
+...
+Fruit Sales:
+apple     15
+banana    35
+cherry    55
+dtype: int64
+Total Sales: 105
+>>>
