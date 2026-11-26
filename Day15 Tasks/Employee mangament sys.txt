@@ -1,0 +1,42 @@
+...         print("Name:", self.name)
+...         print("Salary:", self.salary)
+...
+... employees = {}
+... try:
+...     emp_id = int(input("Enter Employee ID: "))
+...     name = input("Enter Employee Name: ")
+...     salary = float(input("Enter Employee Salary: "))
+...
+...     if salary <= 0:
+...         raise ValueError("Salary must be positive")
+...
+...     emp = Employee(emp_id, name, salary)
+...
+...     employees[emp_id] = emp
+...
+...     with open("employees.txt", "a") as file:
+...         file.write(f"{emp_id}, {name}, {salary}\n")
+...
+...     print("\nEmployee added successfully!")
+...
+    except ValueError as e:
+        print("Invalid Input:", e)
+
+    print("\nEmployee Details")
+
+    for emp in employees.values():
+        emp.display()
+        print("----------------")
+
+Enter Employee ID: 24105
+Enter Employee Name: Rohit sai reddy
+Enter Employee Salary: 17000
+
+Employee added successfully!
+
+Employee Details
+ID: 24105
+Name: Rohit sai reddy
+Salary: 17000.0
+----------------
+>>>

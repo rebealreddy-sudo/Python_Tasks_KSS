@@ -1,0 +1,60 @@
+... student_dict = dict(students)
+...
+... print("Student Dictionary:", student_dict)
+...
+... passed_students = []
+...
+... for name, marks in student_dict.items():
+...     if marks > 50:
+...         passed_students.append((name, marks))
+...
+... print("\nStudents scoring above 50:")
+...
+>>> import pandas as pd
+...
+... df = pd.DataFrame({
+...     "Name": ["A", "B", "C", "D"],
+...     "Marks": [50, 80, 30, 90]
+... })
+...
+... df["Status"] = df["Marks"].apply(
+...     lambda x: "Fail" if x < 50 else "Pass"
+... )
+>>> import pandas as pd
+...
+... df = pd.DataFrame({
+...     "Name": ["A", "B", "C", "D"],
+...     "Marks": [50, 80, 30, 90]
+... })
+...
+... df["Status"] = df["Marks"].apply(
+...     lambda x: "Fail" if x < 50 else "Pass"
+... )
+...
+... print("Student Data:")
+... print(df)
+...
+... passed = df[df["Status"] == "Pass"]
+...
+... print("\nPassed Students:")
+... print(passed)
+...
+... average = passed["Marks"].mean()
+...
+... print("\nAverage Marks of Passed Students:", average)
+...
+Student Data:
+  Name  Marks Status
+0    A     50   Pass
+1    B     80   Pass
+2    C     30   Fail
+3    D     90   Pass
+
+Passed Students:
+  Name  Marks Status
+0    A     50   Pass
+1    B     80   Pass
+3    D     90   Pass
+
+Average Marks of Passed Students: 73.33333333333333
+>>>

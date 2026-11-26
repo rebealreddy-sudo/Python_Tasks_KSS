@@ -1,0 +1,91 @@
+...         print("Name:", self.name)
+...         print("Salary:", self.salary)
+...
+... employees = {}
+... try:
+...     emp_id = int(input("Enter Employee ID: "))
+...     name = input("Enter Employee Name: ")
+...     salary = float(input("Enter Employee Salary: "))
+...
+...     if salary <= 0:
+...         raise ValueError("Salary must be positive")
+...
+...     emp = Employee(emp_id, name, salary)
+...         "Rahul", "Priya", "Arjun", "Sneha", "Kiran",
+...         "Ravi", "Anu", "Vijay", "Meena", "John"
+...     ],
+...     "Marks": marks
+... })
+...
+... print("\nStudent Data:")
+... print(df)
+...
+...
+... passed = df[df["Marks"] >= 40]
+...
+... print("\nPassing Students:")
+... print(passed)
+...
+...
+... average = np.mean(marks)
+...
+... print("\nAverage Marks:", average)
+...
+
+    print("\nStudent Results:")
+
+    for index, row in df.iterrows():
+
+        if row["Marks"] >= 40:
+            print(row["Student"], "- Pass")
+        else:
+            print(row["Student"], "- Fail")
+
+Student Marks: [32 67 38 42 77 63 88 32 89 83]
+
+Student Data:
+  Student  Marks
+0   Rahul     32
+1   Priya     67
+2   Arjun     38
+3   Sneha     42
+4   Kiran     77
+5    Ravi     63
+...     file.write("INFO: User logged in\n")
+...     file.write("ERROR: File not found\n")
+...     file.write("WARNING: High memory usage\n")
+...     file.write("ERROR: Database connection failed\n")
+...
+...
+... def read_logs(filename):
+...
+...     with open(filename, "r") as file:
+...
+...         for line in file:
+...             yield line.strip()
+...
+...
+... error_count = {}
+...
+... for log in read_logs("server.log"):
+
+        if "ERROR" in log:
+
+            print("Error Found:", log)
+
+            error_count[log] = error_count.get(log, 0) + 1
+
+
+    print("\nError Summary:")
+
+    for error, count in error_count.items():
+        print(error, ":", count)
+
+Error Found: ERROR: Database connection failed
+Error Found: ERROR: File not found
+Error Found: ERROR: Database connection failed
+
+Error Summary:
+ERROR: Database connection failed : 2
+ERROR: File not found : 1
+>>>

@@ -1,0 +1,103 @@
+...         print("Name:", self.name)
+...         print("Salary:", self.salary)
+...
+... employees = {}
+... try:
+...     emp_id = int(input("Enter Employee ID: "))
+...     name = input("Enter Employee Name: ")
+...     salary = float(input("Enter Employee Salary: "))
+...
+...     if salary <= 0:
+...         raise ValueError("Salary must be positive")
+...
+...     emp = Employee(emp_id, name, salary)
+...         "Rahul", "Priya", "Arjun", "Sneha", "Kiran",
+...         "Ravi", "Anu", "Vijay", "Meena", "John"
+...     ],
+...     "Marks": marks
+... })
+...
+... print("\nStudent Data:")
+... print(df)
+...
+...
+... passed = df[df["Marks"] >= 40]
+...
+... print("\nPassing Students:")
+... print(passed)
+...
+...
+... average = np.mean(marks)
+...
+... print("\nAverage Marks:", average)
+...
+
+    print("\nStudent Results:")
+
+    for index, row in df.iterrows():
+
+        if row["Marks"] >= 40:
+            print(row["Student"], "- Pass")
+        else:
+            print(row["Student"], "- Fail")
+
+Student Marks: [32 67 38 42 77 63 88 32 89 83]
+
+Student Data:
+  Student  Marks
+0   Rahul     32
+1   Priya     67
+2   Arjun     38
+3   Sneha     42
+4   Kiran     77
+5    Ravi     63
+...     file.write("INFO: User logged in\n")
+...     file.write("ERROR: File not found\n")
+...     file.write("WARNING: High memory usage\n")
+...     file.write("ERROR: Database connection failed\n")
+...
+...
+... def read_logs(filename):
+...
+...     with open(filename, "r") as file:
+...
+...             else:
+...                 print("User not found!")
+...
+...         return wrapper
+...
+...
+...             else:e(func):
+...                 print("User not found!")
+...
+...         return wrapper
+...
+...     return decorator
+...
+... @check_role("admin")
+... def delete_records(username):
+...     print(username, "can delete records.")
+...
+...
+... @check_role("manager")
+... def view_reports(username):
+...     print(username, "can view reports.")
+...
+...
+    @check_role("user")
+    def view_profile(username):
+        print(username, "can view profile.")
+
+    delete_records("Rahul")
+
+    view_reports("Priya")
+
+    view_reports("Arjun")
+
+    view_profile("Priya")
+
+Rahul can delete records.
+Access Denied! Insufficient permissions.
+Arjun can view reports.
+Priya can view profile.
+>>>

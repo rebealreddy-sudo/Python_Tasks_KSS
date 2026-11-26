@@ -1,0 +1,82 @@
+...         print("Name:", self.name)
+...         print("Salary:", self.salary)
+...
+... employees = {}
+... try:
+...     emp_id = int(input("Enter Employee ID: "))
+...     name = input("Enter Employee Name: ")
+...     salary = float(input("Enter Employee Salary: "))
+...
+...     if salary <= 0:
+...         raise ValueError("Salary must be positive")
+...
+...     emp = Employee(emp_id, name, salary)
+...         "Rahul", "Priya", "Arjun", "Sneha", "Kiran",
+...         "Ravi", "Anu", "Vijay", "Meena", "John"
+...     ],
+...     "Marks": marks
+... })
+...
+... print("\nStudent Data:")
+... print(df)
+...
+...
+... passed = df[df["Marks"] >= 40]
+...
+... print("\nPassing Students:")
+... print(passed)
+...
+...
+... average = np.mean(marks)
+...
+... print("\nAverage Marks:", average)
+...
+
+    print("\nStudent Results:")
+
+    for index, row in df.iterrows():
+
+        if row["Marks"] >= 40:
+            print(row["Student"], "- Pass")
+        else:
+            print(row["Student"], "- Fail")
+
+Student Marks: [32 67 38 42 77 63 88 32 89 83]
+
+Student Data:
+  Student  Marks
+0   Rahul     32
+1   Priya     67
+2   Arjun     38
+3   Sneha     42
+4   Kiran     77
+5    Ravi     63
+6     Anu     88
+7   Vijay     32
+8   Meena     89
+9    John     83
+
+Passing Students:
+  Student  Marks
+1   Priya     67
+3   Sneha     42
+4   Kiran     77
+5    Ravi     63
+6     Anu     88
+8   Meena     89
+9    John     83
+
+Average Marks: 61.1
+
+Student Results:
+Rahul - Fail
+Priya - Pass
+Arjun - Fail
+Sneha - Pass
+Kiran - Pass
+Ravi - Pass
+Anu - Pass
+Vijay - Fail
+Meena - Pass
+John - Pass
+>>>

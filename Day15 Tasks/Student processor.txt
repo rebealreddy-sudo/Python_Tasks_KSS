@@ -1,0 +1,41 @@
+... student_dict = dict(students)
+...
+... print("Student Dictionary:", student_dict)
+...
+... passed_students = []
+...
+... for name, marks in student_dict.items():
+...     if marks > 50:
+...         passed_students.append((name, marks))
+...
+... print("\nStudents scoring above 50:")
+...
+... for name, marks in passed_students:
+...     print(name, marks)
+...
+... total = sum(student_dict.values())
+... average = math.ceil(total / len(student_dict))
+...
+... print("\nAverage Marks:", average)
+...
+... with open("student_results.txt", "w") as file:
+        file.write("Student Results\n")
+
+        for name, marks in passed_students:
+            file.write(f"{name}: {marks}\n")
+
+        file.write(f"Average Marks: {average}\n")
+
+    print("\nResults saved successfully!")
+
+Student Dictionary: {'Rahul': 75, 'Priya': 45, 'Arjun': 85, 'Sneha': 60, 'Kiran': 40}
+
+Students scoring above 50:
+Rahul 75
+Arjun 85
+Sneha 60
+
+Average Marks: 61
+
+Results saved successfully!
+>>>
