@@ -1,4 +1,13 @@
-
+# ==========================================================
+# PROJECT TITLE : RAILWAY GAUGES ANALYSIS
+# ==========================================================
+# Project Name : Railway Gauges Analysis Using Python
+# Language     : Python
+# Libraries    : Pandas, NumPy, Matplotlib
+# Objective    : To analyze different railway gauges,
+#                compare their track widths, and visualize
+#                railway gauge data using graphs.
+# ==========================================================
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
